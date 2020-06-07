@@ -11,12 +11,12 @@ li{
 
 
 
-#bluesubtitle{
+.bluesubtitle{
 	color: blue;
 }
 
 
-.purplesubtitle{
+#purplesubtitle{
 	color: purple;
 }
 
