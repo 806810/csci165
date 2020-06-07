@@ -5,17 +5,14 @@ h1 {
 }
 
 
-
-
-
 li{
 	color: red;
 }
 
 
 
-#purplesubtitle{
-	color: purple;
+#bluesubtitle{
+	color: blue;
 }
 
 
@@ -24,7 +21,8 @@ li{
 }
 
 
-
 .greensubtitle{
 	color: green;
 }
+
+
