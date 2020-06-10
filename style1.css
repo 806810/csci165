@@ -1,1 +1,26 @@
+#first_block{
+background-color: lightgrey;
+width: 300px;
+border: 15px solid blueviolet;
+padding: 50px;
+margin: 20px;
 
+}
+
+#second_block{
+background-color: lightgrey;
+width: auto;
+border: 10px dashed red;
+padding: 10px;
+margin: 20px;
+
+}
+
+#third_block{
+background-color: lightgrey;
+width: 50%;
+border: 5px double black;
+padding: 20px;
+margin: 20px;
+
+}
