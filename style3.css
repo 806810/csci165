@@ -17,13 +17,6 @@ td, th, table {
     border: 1px solid #990000;
 }
 
-/* how to align table to center 
-
-table table {
-    margin-left:auto;
-    margin-right: auto;
-} */
-
 
 table table tr td {
     color: #4d88ff;
