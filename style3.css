@@ -1,0 +1,55 @@
+h1 {
+    border: solid black;
+    color: white;
+    background-color: #3385ff;
+    text-align: center;
+}
+
+h2 {
+    border: solid black;
+    color: #ff00bf;
+    background-color:  #4dffb8;
+    width: 400px;
+}
+
+td, th, table {
+    border-collapse: collapse;
+    border: 1px solid #990000;
+}
+
+/* how to align table to center 
+
+table table {
+    margin-left:auto;
+    margin-right: auto;
+} */
+
+
+table table tr td {
+    color: #4d88ff;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+a:link {
+    color: red;
+}
+
+
+a:visited {
+    color: green;
+}
+
+
+a:hover {
+    color: hotpink;
+}
+
+
+a:active {
+    color: skyblue;
+}
