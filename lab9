@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+
+	
+	.firstclass{
+	color: lime;
+}
+    .secondclass{
+	color: SlateBlue;
+}
+     #ahmedstyle{
+     	color: DodgerBlue;
+     	font-variant: small-caps;
+ }
+     #secondpara::first-line {
+         color: #ff0000;
+         font-variant: petite-caps;
+}
+    #firstpara::first-letter {
+      color: #873320;
+      font-size: xx-large;
+}
+    ::selection {
+  color: purple;
+  background: yellow;
+}
+
+
+     </style>
+</head>
+<body>
+	<div class="firstclass">
+	<h1> Title 1</h1>
+	<p id="firstpara">
+	<span id="ahmedstyle">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,</span> by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+     </p>
+ </div>
+
+
+
+ <div class="secondclass">
+    <h2> Title 2</h2>
+	<p id="secondpara">
+		"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+	   </p>
+	</div>
+ </body>
+
+</html>
