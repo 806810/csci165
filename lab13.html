@@ -1,102 +1,92 @@
+<!DOCTYPE html>
 <html>
 <head>
+	<title>LAB13</title>
 	<style>
-		.inlineStyle{
-			display: inline-block;
-			width: 300px;
-			height: 20px;
-			padding: 10px;
-		}
+		
+        .inlineStyle{
+        	display: inline-block;
+        	width: 300px;
+        	height: 20px;
+        	padding: 10px;
+        }
 
-		.blockStyle{
-			display: block;
-			width: 350px;
-			height: 70px;
-			background-color: orange;
-		}
+        .blockStyle{
+            display: block;
+            width: 350px;
+            height: 70px;
+            background-color: orange; 
+            padding: 5px;
+        }
+      
+        .hidden{
+      	   visibility: hidden;
+        }
 
-		.hidden{
-		visiability: hidden;
-	    }
+        .inlineBlock{
+        	display: inline-block;
+        	background: lime;
+        	width: 90px;
+        	height: 50px;
+        	padding: 5px;
+        	border: 3px dashed grey;
+        }
+        
+        .inlineS{
+        	display: inline;
+        	border: 1px black solid;
+        	background-color: skyblue;
+        	margin: 5px;
+        	padding: 5px; 
 
-	    .inlineBlock{
-	    	display: inline-block;
-	    	width: 250px;
-	    	height: 250px;
-	    	background-color: lime;
-	    }
+        }
 
-
-	    .inlineS{
-	    	display: inline;
-	    	width: 250px;
-	    	height: 250px;
-	    	background-color: skyblue;
-	    }
-
-	    .block{
-	    	display: block;
-	    	width: 90px;
-	    	background-color: pink;
-	    }
-	   
-
-
-	    
-    </style>
- </head>
- <body>
-
-	<p> 1. Display a list of links as a horizontal menu: </p>
-
-	<ul style="background-color: yellow; text-align: center;">
-		<li class="inlineStyle">
-		<a href="https://www.w3schools.com/html/default.asp">
-		HTML reference
-		</a>
-	</li>
+        .block{
+        	display: block;
+        	width: 150px;
+        	background: pink;
+        }
 
 
-	<li class="inlineStyle">
-	<a href="https://www.w3schools.com/css/default.asp">
-	CSS reference
-	</a>
-    </li>
-   
-
-   <li class="inlineStyle">
-   	<a href="https://www.w3schools.com/js/default.asp">
-   	Javascript reference
-   	</a>
-   </li>
-   </ul>
-
-
-<p> 2. Dispaly links as a block elements: <p>
-
-	<a class="blockStyle" href="https://www.w3schools.com/html/default.asp">
-	HTML reference
-	</a>
-	
-
-	<a class="blockStyle" href="https://www.w3schools.com/css/default.asp">
-	CSS reference
-	</a>
-
-	<a class="blockStyle" href="https://www.w3schools.com/js/default.asp">
-	Javascript reference
-	</a>
-
-	<h1 class="hidden">This text should be hidden.</h1>
-
-	Lorem ispum<span class="inlineBlock">dolor sit amet</span>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor<span class="inlineS"> in reprehenderit</span> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat<span class="block"> cupidatat non proident</span>,sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-
-</p>
-</p>
-</body>
+	</style>
 </head>
+<body>
+  
+  <p>1. Display a list of links as a horizontal menu:</p>
+
+  <ul style="background-color: yellow; text-align: center;">
+  	<li class="inlineStyle">
+  		<a href="https://www.w3schools.com/html/default.asp">
+  		HTML refrence </a>
+  	</li>
+
+  	<li class="inlineStyle">
+  		<a href="https://www.w3schools.com/css/default.asp">
+  		CSS refrence </a>
+  	</li>
+
+  	<li class="inlineStyle">
+  		<a href="https://www.w3schools.com/js/default.asp">
+  		Javascript refrence </a>
+  	</li>
+  </ul>
+
+  <p>2. Display links as a block elements: </p>
+
+  <a class="blockStyle" href="https://www.w3schools.com/html/default.asp"> HTML refrence </a>
+
+  <a class="blockStyle" href="https://www.w3schools.com/css/default.asp">CSS refrence</a>
+
+  <a class="blockStyle" href="https://www.w3schools.com/js/default.asp">Javascript refrence</a>
+
+  <h1 class="hidden"> This text should be hidden.</h1>
+
+  "Loremispum <span class="inlineBlock">dolor sit amet </span>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation irure dolor <span class="inlineS"> in reprehenderit </span> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. excepteur sint occaecat <span class="block"> cupidatat non proident </span>, sunt in culpa qui officia deserunt mollit anim id est laborum."
+ 
+
+</body>
 </html>
+
 
 	
 
