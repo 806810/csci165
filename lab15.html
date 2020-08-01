@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <script src="first-code.js"></script>
+
+	<style>
+    #operand1{
+       background-color: red;
+       color:white;
+
+    }
+
+    #operand2{
+      background-color: black;
+      color:white;
+    }
+
+    #add_style {
+        background-color: skyblue;
+        padding: 3px;
+    }
+
+    #min_style {
+        background-color: lime;
+        padding: 3px;
+    }
+
+    #mul_style {
+        background-color: mediumseagreen;
+        padding: 3px;
+    }
+
+    #div_style {
+        background-color: pink;
+        padding: 3px;
+    }
+    </style>
+
+		
+</head>
+<body>
+	<div>
+		<pre>First Operand : <input id="operand1"> </pre>
+
+	</div>
+	<div>
+		<pre>Second Operand : <input id="operand2"> </pre>
+	</div>
+	<br>
+    <!-- addition, subtraction, multiplication and division buttons are added -->
+	<button id="addbutton">+</button>
+    <button id="subbutton">-</button>
+    <button id="mulbutton">*</button>
+    <button id="divbutton">/</button>
+
+    <!-- Output as a Result -->
+    <div>
+    	<pre>Result : <span id="result"></span> </pre>
+        </div>
+
+    <h2>History</h2>
+    <button id="show_button"> SHOW </button>
+    <button id="hide_button"> HIDE </button>
+    <pre>
+    <div id="history"></div>
+    </pre>
+
+    <br>
+    <br>
+    <br>
+    <a href="index.html"> Go to Home Page!</a>
+
+
+</body>
+</html> 
