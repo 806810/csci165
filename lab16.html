@@ -1,0 +1,62 @@
+<doctype html>
+<html lang="en" >
+
+<head>
+	<meta charset="utf-8">
+	<title>mouseleave demo</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery">
+
+		<script src="first-code.js1"></script>
+		<style>
+			div.out{
+				width:40%;
+				background-color: #ff69b4;
+				margin: 10px;
+				/* height: 140px; */
+				float: left;
+			}
+
+			div.in{
+				width: 60%;
+				height: 60%;
+				background-color: #00ffff;
+				margin: 10px auto;
+			}
+
+			p{
+				line-height: 1em;
+				margin: 0;
+				padding: 0;
+			}
+		</style>
+	</head>
+
+
+<body>
+
+	<div id="outercover" class="out">
+		<p id="outerTextoverout">move your mouse</p>
+		<div id="inneroverout" class="in">
+			<p id="innerTextoverout">move your mouse</p>
+			<p id="innerCounterOver">0</p>
+			<p id="innerCounterOut">0</p>
+		</div>
+		<p id="outerCounterOver">0</p>
+		<p id="outerCounterOut">0</p>
+	</div>
+
+	<div id="outerenterleave" class="out">
+		<p id="outerTextenterleave">move your mouse</p>
+		<div id="innerenterleave" class="in">
+			<p id="innerTextenterleave">move your mouse</p>
+			<p id="innerCounterEnter">0</p>
+			<p id="innerCounterLeave">0</p>
+		</div>
+		<p id="outerCounterEnter">0</p>
+		<p id="outerCounterLeave">0</p>
+	</div>
+
+</body>
+</html>
+	
+
