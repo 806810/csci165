@@ -58,7 +58,7 @@ setup = function() {
     jQuery("#outerTextenterleave").text("mouse leave");
 
    n = n + 1;
-   jQuery("#outerCounterleave").text(n + "leave");
+   jQuery("#outerCounterLeave").text(n + "leave");
 
     });
 
