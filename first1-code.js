@@ -65,7 +65,7 @@ setup = function() {
     //Inner Div
 
     c = 0;
-    jQuery(#"innerenterleave").mouseenter(function(){
+    jQuery("#innerenterleave").mouseenter(function(){
     	//console.log('div enterleave-> enter');
     	jQuery("#innerTextenterleave").text("mouse enter");
 
