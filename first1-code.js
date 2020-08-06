@@ -7,16 +7,16 @@ setup = function() {
 	console.log('#outerTextoverout-> over');
 	jQuery("#outerTextoverout").text("mouse over");
 
-	t = t + 1
+     t = t + 1
 	jQuery("#outerCounterOver"). text(t + "overs");
     });
 
-	z = 0;
+     z = 0;
 	jQuery("#outeroverout").mouseout(function(){
 		//console.log('outerTextoverout-> out');
 		jQuery("#outerTextoverout").text("mouse out");
 
-	z = z + 1;
+     z = z + 1;
 	jQuery("#outerCounterOut"). text(z + "outs");
 	});
 
@@ -28,7 +28,7 @@ setup = function() {
 	jQuery("#innerTextoverout").text("mouse over");
 
 
-	a = a + 1;
+    a = a + 1;
 	jQuery("#innerCounterOver").text(a + " overs");
     });
 
@@ -37,7 +37,7 @@ setup = function() {
 	//console.log('innerTextoverout-> out');
 	jQuery("#innerTextoverout").text("mouse out");
 
-	i = i + 1;
+     i = i + 1;
 	jQuery("#innerCounterOut").text(i + "outs");
     });
 
@@ -48,7 +48,7 @@ setup = function() {
     	//console.log('div.enterleave-> enter');
     	jQuery("#outerTextenterleave").text("mouse enter");
 
-    	d = d + 1;
+   d = d + 1;
     	jQuery("#outerCounterEnter").text(d + "enters");
     });
 
@@ -57,7 +57,7 @@ setup = function() {
     	//console.log('outerenterleave-> exit');
     	jQuery("#outerTextenterleave").text("mouse leave");
 
-    	n = n + 1;
+   n = n + 1;
     	jQuery("#outerCounterleave").text(n + "leave");
 
     });
@@ -69,7 +69,7 @@ setup = function() {
     	//console.log('div enterleave-> enter');
     	jQuery("#innerTextenterleave").text("mouse enter");
 
-    	c = c + 1;
+   c = c + 1;
     	jQuery("#innerCounterEnter").text(c + "enters");
     });
 
